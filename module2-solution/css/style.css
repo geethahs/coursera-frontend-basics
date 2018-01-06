@@ -1,13 +1,9 @@
 * {
-	  box-sizing: border-box;
-	 font-family: Book Antiqua; 
+	box-sizing: border-box;
+	font-family: Book Antiqua; 
 }
-/*body{
-	margin: 1%;
-	padding: 1%;
-}*/
 h1{
-	text-transform: uppercase;
+	text-transform: capitalize;
   	margin: 0px;	
   	padding: 0px;	
   	border: none;
@@ -50,6 +46,9 @@ section p{
 #s3 div{
 	 background: rgba(99, 95, 128, 0.48);
 }
+#clear {
+	clear: both;
+}
 
 @media (min-width: 992px) {
 	section {	
@@ -68,6 +67,7 @@ section p{
 		width: 96%;
 	}
 }
+
 @media (max-width: 787px) {
 	section {	
 		width: 97%;
